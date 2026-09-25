@@ -11,6 +11,11 @@ Proyecto universitario para diseñar un MVP de una plataforma donde las personas
 - [Decisiones del proyecto](docs/decisiones/)
 - [Skill para WBS por entregables](skills/wbs-por-entregables/SKILL.md)
 
+## Recursos
+
+- Los diagramas vigentes están en `docs/assets/`.
+- Los documentos y scripts heredados de la estructura anterior están en `old/` y se conservan como referencia histórica.
+
 ## Roles principales
 
 - **Docente:** ofrece conocimientos o habilidades.
