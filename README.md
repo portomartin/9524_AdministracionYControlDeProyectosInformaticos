@@ -5,8 +5,8 @@ Proyecto universitario para diseñar un MVP de una plataforma donde las personas
 ## Documentación principal
 
 - [Especificación del MVP](docs/mvp.md)
-- [Backlog](docs/backlog.md)
 - [WBS del MVP](docs/wbs.md)
+- [Alcance futuro](docs/alcance-futuro.md)
 - [Registro de cambios](docs/cambios.md)
 - [Decisiones del proyecto](docs/decisiones/)
 - [Skill para WBS por entregables](skills/wbs-por-entregables/SKILL.md)
@@ -27,4 +27,4 @@ Una misma persona puede desempeñar ambos roles.
 
 Las skills de la carpeta `skills/` ayudan a transformar la especificación en backlog, historias de usuario y documentación revisable.
 
-El flujo de planificación es: `docs/mvp.md` → `docs/wbs.md` → `docs/backlog.md`.
+El flujo de planificación actual es: `docs/mvp.md` → `docs/wbs.md`. El backlog se definirá en una etapa posterior.

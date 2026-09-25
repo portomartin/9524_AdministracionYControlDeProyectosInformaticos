@@ -5,7 +5,7 @@ description: Revisar y dividir historias de usuario del backlog para que sean cl
 
 # Refinar historias
 
-Revisar `docs/mvp.md` y `docs/backlog.md`.
+Revisar `docs/mvp.md` y el backlog disponible, si ya fue creado.
 
 - Detectar historias demasiado amplias, ambiguas o con más de una intención.
 - Mantener el actor, la acción y el beneficio visibles.

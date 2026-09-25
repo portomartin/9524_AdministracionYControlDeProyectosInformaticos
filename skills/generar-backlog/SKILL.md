@@ -16,4 +16,4 @@ Leer `AGENTS.md` y `docs/mvp.md` antes de proponer cambios.
 - Separar claramente historias de Docente, Alumno y Administrador.
 - Proponer criterios de aceptación breves para cada historia.
 
-Actualizar `docs/backlog.md` solo después de que el usuario confirme las propuestas.
+Crear un backlog solo después de que el usuario confirme las propuestas y defina su ubicación y formato.

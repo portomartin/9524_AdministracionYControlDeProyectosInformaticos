@@ -3,8 +3,8 @@
 ## Fuente de verdad
 
 - La especificación vigente del producto está en `docs/mvp.md`.
-- El backlog debe reflejar la versión aprobada del MVP y no introducir funcionalidades sin justificar.
-- Ante un cambio en `docs/mvp.md`, revisar el impacto en `docs/backlog.md`, las historias y las decisiones registradas.
+- Los documentos derivados deben reflejar la versión aprobada del MVP y no introducir funcionalidades sin justificar.
+- Ante un cambio en `docs/mvp.md`, revisar el impacto en la WBS, las decisiones registradas y los documentos derivados.
 
 ## Dominio
 

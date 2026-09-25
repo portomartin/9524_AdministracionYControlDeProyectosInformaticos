@@ -34,9 +34,7 @@ Una misma persona podrá utilizar los roles de Docente y Alumno según la activi
 - **2.1.1. Publicación de una propuesta de enseñanza**
 - **2.1.2. Clasificación por categoría y nivel**
 - **2.1.3. Definición de modalidad, duración y créditos**
-- **2.1.4. Configuración de clase individual o grupal**
-- **2.1.5. Incorporación de equipo docente**
-- **2.1.6. Definición de cupo máximo**
+- **2.1.4. Configuración de sesión individual**
 
 #### 2.2. Solicitudes de aprendizaje
 
@@ -65,43 +63,33 @@ Una misma persona podrá utilizar los roles de Docente y Alumno según la activi
 #### 3.2. Intercambios directos y equivalentes
 
 - **3.2.1. Intercambio recíproco entre Docente y Alumno**
-- **3.2.2. Intercambio mediante combinación de clases**
-- **3.2.3. Intercambio 2×1 u otras equivalencias**
-- **3.2.4. Registro del acuerdo entre las partes**
+- **3.2.2. Registro del acuerdo entre las partes**
 
-### 4. Clases, sesiones y créditos
+### 4. Sesiones y créditos
 
-#### 4.1. Clases grupales y equipos docentes
+#### 4.1. Solicitudes y reservas
 
-- **4.1.1. Creación de clase grupal**
-- **4.1.2. Inscripción de varios Alumnos**
-- **4.1.3. Control de cupo máximo**
-- **4.1.4. Registro de varios Docentes**
-- **4.1.5. Distribución de créditos entre Docentes**
+- **4.1.1. Solicitud de una sesión individual**
+- **4.1.2. Propuesta de fecha y horario**
+- **4.1.3. Aceptación o rechazo de la solicitud**
+- **4.1.4. Modificación o cancelación de la reserva**
+- **4.1.5. Estados de la solicitud**
 
-#### 4.2. Solicitudes y reservas
+#### 4.2. Créditos virtuales
 
-- **4.2.1. Solicitud de una sesión**
-- **4.2.2. Propuesta de fecha y horario**
-- **4.2.3. Aceptación o rechazo de la solicitud**
-- **4.2.4. Modificación o cancelación de la reserva**
-- **4.2.5. Estados de la solicitud**
+- **4.2.1. Asignación de créditos iniciales**
+- **4.2.2. Transferencia de créditos al completar una sesión**
+- **4.2.3. Uso de créditos para aprender**
+- **4.2.4. Consulta de saldo**
+- **4.2.5. Historial de movimientos**
+- **4.2.6. Estimación orientativa mediante LLM**
 
-#### 4.3. Créditos virtuales
+#### 4.3. Finalización e historial
 
-- **4.3.1. Asignación de créditos iniciales**
-- **4.3.2. Transferencia de créditos al completar una sesión**
-- **4.3.3. Uso de créditos para aprender**
-- **4.3.4. Consulta de saldo**
-- **4.3.5. Historial de movimientos**
-- **4.3.6. Estimación orientativa mediante LLM**
-
-#### 4.4. Finalización e historial
-
-- **4.4.1. Confirmación de sesión completada**
-- **4.4.2. Registro de temas enseñados y aprendidos**
-- **4.4.3. Consulta de sesiones y clases realizadas**
-- **4.4.4. Consulta de intercambios y créditos**
+- **4.3.1. Confirmación de sesión completada**
+- **4.3.2. Registro de temas enseñados y aprendidos**
+- **4.3.3. Consulta de sesiones realizadas**
+- **4.3.4. Consulta de intercambios y créditos**
 
 ### 5. Confianza, reputación y seguridad
 
@@ -145,15 +133,14 @@ Una misma persona podrá utilizar los roles de Docente y Alumno según la activi
 ### 7. Administración y control del proyecto
 
 - **7.1. Documentación del proyecto**
-- **7.2. Backlog del MVP**
-- **7.3. Informe de avances**
-- **7.4. Informe de riesgos**
-- **7.5. Gestión de decisiones y cambios**
+- **7.2. Informe de avances**
+- **7.3. Informe de riesgos**
+- **7.4. Gestión de decisiones y cambios**
 
 ## Tabla de trazabilidad con el MVP
 
 | Entregable WBS | Secciones del MVP que lo respaldan |
-|---|---|---|
+|---|---|
 | 1. Gestión de cuentas y perfiles | Conceptos principales; Perfiles de usuario |
 | 2. Gestión de propuestas y solicitudes | Descripción general; Publicación de propuestas; Disponibilidad horaria; Búsqueda y filtros |
 | 3. Compatibilidad e intercambios | Sistema de compatibilidad; Intercambios recíprocos y créditos virtuales |
@@ -165,8 +152,8 @@ Una misma persona podrá utilizar los roles de Docente y Alumno según la activi
 ## Supuestos y puntos a confirmar
 
 - La WBS mezcla entregables del producto con entregables académicos de administración del proyecto, siguiendo la directriz de referencia.
-- El backlog se generará después de aprobar esta WBS y no se utilizó para definir su estructura.
+- El backlog se podrá generar en una etapa posterior y no se utilizó para definir esta WBS.
 - La publicación de solicitudes de aprendizaje se considera una funcionalidad explícita del MVP, aunque debe mantenerse alineada con la redacción final de `docs/mvp.md`.
 - La IA y el cálculo de créditos mediante LLM aparecen como componentes del MVP; conviene definir qué parte será demostrable en la primera versión.
 - La validación de títulos y estudios requiere definir qué documentos se aceptarán y quién realizará la revisión.
-- La distribución de créditos entre varios Docentes necesita una regla aprobada.
+- Las funcionalidades grupales y los intercambios no 1 a 1 se documentan en `docs/alcance-futuro.md` y no forman parte de esta WBS del MVP.

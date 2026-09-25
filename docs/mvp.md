@@ -50,9 +50,7 @@ Los usuarios podrán publicar aquello que desean enseñar. Cada publicación inc
 - Modalidad de la sesión.
 - Duración estimada.
 - Cantidad de créditos asignada a la sesión.
-- Tipo de clase: individual, grupal o dictada por un equipo.
-- Cantidad máxima de participantes, en caso de tratarse de una clase grupal.
-- Integrantes del equipo docente, si corresponde.
+- Tipo de clase: individual.
 Los temas se seleccionarán a partir de categorías definidas por la plataforma. Esto permitirá organizar las publicaciones, mejorar las búsquedas y reducir la aparición de contenido no permitido.
 ### Sistema de compatibilidad
 La plataforma contará con un sistema basado en reglas para identificar usuarios compatibles.
@@ -66,18 +64,12 @@ Los resultados mostrarán la información principal de cada usuario, los aprendi
 ### Intercambios recíprocos y créditos virtuales
 Cuando dos personas puedan enseñarse mutuamente, podrán acordar una sesión para cada aprendizaje sin necesidad de transferir créditos, siempre que ambas partes consideren equilibrado el intercambio.
 
-También podrán realizarse intercambios equivalentes mediante una combinación de clases. Una persona podrá ofrecer dos o más clases a cambio de una clase de mayor duración, nivel o preparación, aunque no cuente con créditos disponibles. Por ejemplo, podrá ofrecer dos clases de inglés a cambio de una clase de programación, una clase grupal a cambio de dos clases individuales o varias sesiones cortas a cambio de una sesión extensa. Para facilitar acuerdos justos, cada propuesta tendrá un valor orientativo en créditos, aunque las partes podrán realizar el intercambio sin transferirlos.
-
 Cuando el intercambio directo no sea posible, se utilizarán créditos virtuales:
 - Cada usuario recibirá una cantidad inicial al registrarse.
 - Quien participe como aprendiz entregará los créditos correspondientes al completar la sesión.
 - Quien enseñe recibirá esos créditos y podrá utilizarlos para aprender con otro usuario.
 - Cada movimiento quedará registrado en el historial de ambas personas.
-Además del intercambio 1 a 1, el sistema podrá contemplar variantes como 2 a 1 o intercambios grupales. Por ejemplo, una persona podrá enseñar una sesión a dos participantes y recibir una cantidad de créditos proporcional al tiempo, el nivel y la cantidad de asistentes. Estas variantes deberán quedar registradas con claridad para evitar desequilibrios entre los participantes.
-
-El MVP también permitirá organizar clases grupales dictadas por una o varias personas. Cada participante aportará los créditos correspondientes a la sesión y la persona o el equipo docente recibirá el total generado por la actividad. Cuando participe más de un docente, los créditos podrán distribuirse de manera equitativa o proporcional al rol, el tiempo y el nivel de participación de cada integrante. La clase tendrá un cupo máximo y todos los participantes y docentes quedarán registrados.
-
-Para definir una cantidad orientativa de créditos, se podrá utilizar un modelo de lenguaje (LLM) que compare cada propuesta con un estándar base de una sesión individual. El cálculo podrá considerar la duración, el nivel, la preparación necesaria, la cantidad de participantes y la modalidad. El LLM solo propondrá un valor; la plataforma aplicará reglas mínimas y máximas, y el usuario deberá confirmar la cantidad antes de publicar. Los administradores podrán revisar o corregir valores que resulten inadecuados.
+Para definir una cantidad orientativa de créditos, se podrá utilizar un modelo de lenguaje (LLM) que compare cada propuesta con un estándar base de una sesión individual. El cálculo podrá considerar la duración, el nivel, la preparación necesaria y la modalidad. El LLM solo propondrá un valor; la plataforma aplicará reglas mínimas y máximas, y el usuario deberá confirmar la cantidad antes de publicar. Los administradores podrán revisar o corregir valores que resulten inadecuados.
 
 
 La cantidad de créditos se definirá al publicar la propuesta y representará el tiempo y la dedicación de la sesión. Los créditos solo podrán utilizarse dentro de la plataforma y no podrán convertirse en dinero, productos o servicios.
@@ -124,12 +116,10 @@ La primera versión incluirá:
 - Registro e inicio de sesión.
 - Creación y edición de perfiles.
 - Publicación de conocimientos o habilidades que se pueden enseñar.
-- Organización de clases grupales y clases dictadas por equipos docentes.
 - Registro de lo que cada usuario desea aprender.
 - Búsqueda y filtros básicos.
 - Compatibilidad basada en reglas.
 - Detección de intercambios recíprocos.
-- Intercambios equivalentes mediante combinaciones de clases, sin necesidad de contar con créditos.
 - Configuración de disponibilidad horaria.
 - Solicitudes de sesiones.
 - Aceptación, rechazo y cancelación de solicitudes.
