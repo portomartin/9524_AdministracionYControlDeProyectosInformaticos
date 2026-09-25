@@ -6,10 +6,12 @@ Proyecto universitario para diseñar un MVP de una plataforma donde las personas
 
 - [Especificación del MVP](docs/mvp.md)
 - [WBS del MVP](docs/wbs.md)
+- [Metodología de planificación](docs/metodologia.md)
 - [Alcance futuro](docs/alcance-futuro.md)
 - [Registro de cambios](docs/cambios.md)
 - [Decisiones del proyecto](docs/decisiones/)
 - [Skill para WBS por entregables](skills/wbs-por-entregables/SKILL.md)
+- [Skill para User Story Mapping](skills/user-story-mapping/SKILL.md)
 
 ## Recursos
 
