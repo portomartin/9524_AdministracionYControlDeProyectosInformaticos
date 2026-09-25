@@ -1,0 +1,53 @@
+---
+name: wbs-por-entregables
+description: Crear o actualizar una WBS orientada a entregables a partir de la especificación del MVP, usando una jerarquía numerada de proyecto, bloques principales, módulos y funcionalidades.
+---
+
+# WBS basada en entregables
+
+Usar esta skill cuando el usuario solicite crear, revisar o reorganizar una WBS del proyecto.
+
+Una WBS (*Work Breakdown Structure*, o estructura de desglose del trabajo) es una herramienta jerárquica que ordena y clasifica el trabajo de un proyecto. Descompone el trabajo en entregables y componentes progresivamente más pequeños, estimables y verificables.
+
+## Fuente de información
+
+Leer primero:
+
+- `AGENTS.md` para las reglas del proyecto.
+- `docs/mvp.md` como única fuente de verdad del alcance y los requisitos.
+- `references/directriz-wbs.md` para aplicar el formato de la captura de referencia.
+
+## Estructura obligatoria
+
+Organizar el trabajo según resultados o componentes entregables, no como una lista plana de tareas técnicas:
+
+```text
+0. Proyecto o producto
+   1. Bloque principal o entregable
+      1.1. Módulo, sistema o subentregable
+         1.1.1. Funcionalidad concreta
+```
+
+La profundidad puede variar cuando el entregable sea suficientemente claro. No crear niveles artificiales solo para completar la numeración.
+
+## Reglas
+
+- Usar numeración jerárquica: `1`, `1.1`, `1.1.1`.
+- Nombrar cada elemento con un resultado o capacidad comprensible.
+- Mantener trazabilidad hacia secciones concretas del MVP.
+- Distinguir los roles Docente, Alumno y Administrador cuando corresponda.
+- No mezclar en un mismo nivel funcionalidades, tareas técnicas y documentos de gestión.
+- Incluir documentación, backlog, informes de avance e informes de riesgos cuando formen parte de los entregables académicos del proyecto.
+- Detectar elementos del MVP que no estén representados en la WBS.
+- Señalar elementos de la WBS que no tengan respaldo explícito en el MVP.
+- No usar el backlog para agregar alcance o decidir la estructura de la WBS.
+
+## Resultado esperado
+
+Presentar:
+
+1. La WBS jerárquica en Markdown.
+2. Una tabla de trazabilidad entre entregables y secciones del MVP.
+3. Supuestos, ambigüedades y elementos pendientes de confirmar.
+
+El backlog se generará posteriormente a partir de la WBS. No modificar `docs/mvp.md` ni `docs/backlog.md` automáticamente. Si la WBS se aprueba, guardarla en `docs/wbs.md` y registrar el cambio cuando corresponda.
